@@ -19,7 +19,7 @@ public class MainAction {
 
     @GetMapping("/{id}")
     public String read(@PathVariable Long id) {
-        return "index";
+        return "/index";
     }
 
 }
