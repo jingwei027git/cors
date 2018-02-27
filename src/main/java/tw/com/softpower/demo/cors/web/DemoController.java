@@ -5,7 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import tw.com.softpower.demo.cors.dto.Client;
 
-@CrossOrigin(origins = "https://booking.attractionsuite.com", maxAge = 3600)
+// @CrossOrigin(origins = "https://booking.attractionsuite.com", maxAge = 3600)
 @RequestMapping("/client")
 @RestController
 public class DemoController {
